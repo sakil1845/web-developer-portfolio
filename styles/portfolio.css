@@ -19,47 +19,101 @@ body {
     padding: 15px 35px;
 }
 
-
-
-/* nav related styles */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 200px;
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 }
+    .section-description {
+        color: #757575;
+        text-align: center;
+        font-weight: 400;
+    }
 
-.nav-title {
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 800;
-}
+    /* nav related styles */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 200px;
+    }
 
-nav>ul {
-    display: flex;
-    align-items: center;
-}
+    .nav-title {
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 800;
+    }
 
-nav li {
-    list-style: none;
-    margin-right: 50px;
-}
+    nav>ul {
+        display: flex;
+        align-items: center;
+    }
 
-nav a {
-    text-decoration: none;
-    color: #474747;
-}
+    nav li {
+        list-style: none;
+        margin-right: 50px;
+    }
 
-/* header related style */
-.header {
-    background: #FFF8F3;
-}
+    nav a {
+        text-decoration: none;
+        color: #474747;
+    }
 
-.banner {
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
-}
-.banner .profile-pic{
-    width: 500px;
-}
+    /* header related style */
+    .header {
+        background: #FFF8F3;
+        background-image: url(../images/header_bg.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+
+    .banner {
+        padding: 30px 30px 0px 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .banner-content {
+        max-width: 500px;
+        mar
+    }
+
+    .banner .profile-pic {
+        width: 500px;
+    }
+
+    .banner-greeting {
+        font-size: 45px;
+        color: #474747;
+        bottom: 0;
+    }
+
+    .banner-tittle {
+        font-size: 85px;
+        font-weight: 700px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    /* main section style */
+    main{
+       
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .about{
+
+        padding: 130px;
+        border-radius: 10px;
+        background: #FFF8F3;
+        margin: 130px 0;
+    }
+
+    .about-info-container{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    /* about section style */
