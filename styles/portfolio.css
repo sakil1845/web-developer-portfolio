@@ -1,7 +1,7 @@
 /* common shared styles  */
 body {
     font-family: 'Open Sans', sans-serif;
-    color: var(--Dark-01, #181818);
+    color: #181818;
 
     .text-primary {
         color: #FD6E0A;
@@ -30,19 +30,22 @@ body {
     color: #757575;
     text-align: center;
     font-weight: 400;
+    font-size: 18px;
 }
 
 /* nav related styles */
 nav {
     display: flex;
-    justify-content: space-between;
+   /*  justify-content: space-around; */
+   justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
 
 .nav-title {
+   
+    color:  #181818;
     font-size: 45px;
-    font-style: normal;
     font-weight: 800;
 }
 
@@ -64,11 +67,14 @@ nav a {
 /* header related style */
 .header {
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+   
+   
+    
+   
 }
-
 .banner {
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -78,7 +84,7 @@ nav a {
 
 .banner-content {
     max-width: 500px;
-    mar
+    
 }
 
 .banner .profile-pic {
@@ -88,7 +94,7 @@ nav a {
 .banner-greeting {
     font-size: 45px;
     color: #474747;
-    bottom: 0;
+    margin-bottom: 0;
 }
 
 .banner-tittle {
@@ -108,7 +114,7 @@ main {
 main section {
     margin-top: 130px;
 }
-
+/* about section style */
 .about {
 
     padding: 130px;
@@ -120,7 +126,8 @@ main section {
 .about-info-container {
     display: flex;
     justify-content: space-around;
-    text-align: center;
+
+  
 }
 
 .about-info {
@@ -187,8 +194,8 @@ main section {
     margin-bottom: 10px;
 }
 
-.resume-contain hr {
-    margin: 30px 20px;
+.resume-container hr {
+    margin: 30px ;
 }
 
 .download-cv {
@@ -216,7 +223,7 @@ footer {
 textarea {
     display: block;
     margin-bottom: 25px;
-    padding: 35px 18px;
+    padding: 18px 35px;
     color:  #757575;
     border-radius: 5px;
     background: #FFF;
